@@ -20,6 +20,10 @@ should be useful.
 * `C-c ]`: Remove document from the list of agenda files
 * `M-x org-agend-*`: Show agenda
 
+## Tags in org-mode
+* You can add tags by surrounding a word by :, e.g: `:urgent:`
+* Search for tags by: `(org-tags-view)`
+
 ## Keybindings org- brain
 * `o`: Open headline
 * `TAB`: Collapse
