@@ -19,6 +19,7 @@ should be useful.
 * `C-c [`: Add document to the list of agenda files
 * `C-c ]`: Remove document from the list of agenda files
 * `M-x org-agend-*`: Show agenda
+* `C-c C-o`: Open link at point
 
 ## Tags in org-mode
 * You can add tags by surrounding a word by :, e.g: `:urgent:`
