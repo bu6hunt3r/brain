@@ -1,6 +1,6 @@
 # Org-brain/Todo
 
-![](https://raw.githubusercontent.com/bu6hunt3r/brain/brain.png | width=100)
+![](https://raw.githubusercontent.com/bu6hunt3r/brain/master/brain.png)
 - org-brain
 - org-mode
 
