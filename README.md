@@ -13,6 +13,7 @@ should be useful.
 * `ALT+LEFT/RIGHT`: Raise/Demote headline
 * `SHIFT+ALT+LEFT/RIGHT`: Raise/Demote headline and children
 * `C-c .`: Add date
+* `C-c C-s`: Schedule item
 * `C-u C-c .`: Add date and time
 * `C-g`: Stop doing what you are trying to do, escape
 * `C-c [`: Add document to the list of agenda files
