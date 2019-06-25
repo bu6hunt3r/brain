@@ -52,6 +52,8 @@ should be useful.
 
 ## Tables
 
+| Binding |  Command   |
+| ------- |:-------------------------------------|
 | C-c C-c 		| (org-table-align) |
 | TAB 			| (org-table-next-field) |
 | C-c SPC 		| (org-table-blank-field) |
@@ -62,6 +64,8 @@ should be useful.
 
 ### Column and row editing
 
+| Binding |  Command   |
+| ------- |:-------------------------------------|
 | M-LEFT 			| (org-table-move-column-left) |
 | M-RIGHT 			| (org-table-move-column-right) |
 | M-S-LEFT 			| (org-table-delete-column) |
@@ -75,12 +79,16 @@ should be useful.
 | C-c ^				| (org-table-sort-lines) |
 
 ### Regions
+| Binding |  Command   |
+| ------- |:-------------------------------------|
 | C-c C-x M-w 		| (org-table-copy-region) |
 | C-c C-x C-w 		| (org-table-cut-region) |
 | C-c C-x C-y 		| (org-table-paste-rectangle) |
 | M-RET 			| (org-table-wrap-region) |
 
 ### Calculations
+| Binding |  Command   |
+| ------- |:-------------------------------------|
 | C-c + 			| (org-table-sum) |
 | S-RET 			| (org-table-copy-down) |
 
