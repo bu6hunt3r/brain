@@ -50,6 +50,40 @@ should be useful.
 | `C-x n w`     	 | (widen) |
 | `C-c *`  		     | (org-toggle-heading) |
 
+## Tables
+
+| C-c C-c 		| (org-table-align) |
+| TAB 			| (org-table-next-field) |
+| C-c SPC 		| (org-table-blank-field) |
+| S-TAB 		| (org-table-previous-field) |
+| RET 			| (org-table-next-row) |
+| M-a 			| (org-table-beginning-of-field) |
+| M-e 			| (org-table-end-of-field) |
+
+### Column and row editing
+
+| M-LEFT 			| (org-table-move-column-left) |
+| M-RIGHT 			| (org-table-move-column-right) |
+| M-S-LEFT 			| (org-table-delete-column) |
+| M-S-RIGHT 		| (org-table-insert-column) |
+| M-UP 				| (org-table-move-row-up) |
+| M-DOWN 			| (org-table-move-row-down) |
+| M-S-UP 			| (org-table-kill-row) |
+| M-S-DOWN 			| (org-table-insert-row) |
+| C-c - 			| (org-table-insert-hline) |
+| C-c RET 			| (org-table-hline-and-move) |
+| C-c ^				| (org-table-sort-lines) |
+
+### Regions
+| C-c C-x M-w 		| (org-table-copy-region) |
+| C-c C-x C-w 		| (org-table-cut-region) |
+| C-c C-x C-y 		| (org-table-paste-rectangle) |
+| M-RET 			| (org-table-wrap-region) |
+
+### Calculations
+| C-c + 			| (org-table-sum) |
+| S-RET 			| (org-table-copy-down) |
+
 ## Tags in org-mode
 * You can add tags by surrounding a word by :, e.g: `:urgent:`
 * Search for tags by: `(org-tags-view)`
