@@ -21,6 +21,34 @@ should be useful.
 * `M-x org-agend-*`: Show agenda
 * `C-c C-o`: Open link at point
 * `ALT+RET`: Create new list item within lists
+* `ALT-UP/DOWN` will move items to top/bottom
+
+## Structure editing
+| Binding |  Command   |
+| ------- |:-------------------------------------|
+| `C-RET` 			 | (org-insert-heading-respect-content) | 
+| `M-S-RET` 	 	 | 	(org-insert-todo-heading) |
+| `C-S-RET`     	 | (org-insert-todo-heading-respect-content) |
+| `TAB`     	 	 | (org-cycle) |
+| `M-LEFT`      	 | (org-do-promote) |
+| `M-RIGHT`     	 | (org-do-demote) |
+| `M-S-LEFT`    	 | (org-promote-subtree) |
+| `M-S-RIGHT`   	 | (org-demote-subtree) |
+| `M-UP`     	  	 | (org-move-subtree-up) |
+| `M-DOWN`      	 | (org-move-subtree-down) |
+| `M-h`         	 | (org-mark-element) |
+| `C-c @`       	 | (org-mark-subtree) |
+| `C-c C-x C-w`	     | (org-cut-subtree) |
+| `C-c C-x M-w`      | (org-copy-subtree) |
+| `C-c C-x C-y`	     | (org-paste-subtree) |
+| `C-y`     		 | (org-yank) |
+| `C-c C-x c`        | (org-clone-subtree-with-time-shift) |
+| `C-c C-w`     	 | (org-refile) |
+| `C-c ^`     		 | (org-sort) |
+| `C-x n s`     	 | (org-narrow-to-subtree) |
+| `C-x n b`     	 | (org-narrow-to-block) |
+| `C-x n w`     	 | (widen) |
+| `C-c *`  		     | (org-toggle-heading) |
 
 ## Tags in org-mode
 * You can add tags by surrounding a word by :, e.g: `:urgent:`
