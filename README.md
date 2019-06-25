@@ -44,3 +44,6 @@ should be useful.
 * `p`: Add parent
 * `q`: Visualize quit
 * `r`: Open resource
+
+## Tips
+* enabling `org-indent-mode` will automatically indent headlines/list items
