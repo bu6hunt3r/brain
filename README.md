@@ -7,6 +7,80 @@
 Generally isnpecting output of `C-h b` (list bindings for current buffer)
 should be useful. 
 
+## General Editing
+| Binding       |  Purpose                             |
+| --------------|:-------------------------------------|
+| `C-x C-f`         |    Find (open) a file            |
+| `C-x C-s`         |    Save the buffer              |
+| `C-x b`           |    Switch buffer                |
+| `C-x k`           |    Kill (close) a buffer        |
+| `C-x C-b`         |    Display all open buffers     |
+| `C-x C-c`         |    Exits Emacs                  |
+| `ESC ESC ESC`     |    Exits out of prompts        |
+| `C-/`             |    Undo changes |
+
+### Moving
+
+| Binding       |  Purpose                             |
+| --------------|:-------------------------------------|
+| `<left>, ...`      | move by character in all four directions  |
+| `C-<left>, ...`    | move byi word in all four directions  |
+| `<insert>`         | Activates overwrite-mode |
+| `<delete>`         | Deletes character after point |
+| `<prior>, <next>`  | Up and down nearly page |
+| `<home>,<end>`     | Beginning or end of line |
+| `C-f`              | Move forward by character  |
+| `C-b`              | Move backward by character |
+| `C-p`              | Move to previous line      |
+| `C-n`              | Move to next line          |
+| `C-a`              |    Moves point to the beginning of the line |
+| `C-e`              |    Moves point to the end of the line |
+| `M-m`              |    Moves point to the first non-whitespace character on this line |
+| `M-f`                |    Move forward by word  |
+| `M-b`                |    Move backward by word |
+| `C-M-d`                |   Move down into a list |
+| `C-M-u`                |   Move up out of a list |
+| `C-M-n`                |   Move forward to next list |
+| `C-M-n`                |   Move backward to prevoius list |
+| `M-}`                |   Move forward to end of paragraph |
+| `M-{`                |   Move backward to start of paragraph |
+| `M-a`                  |   Move to beginning of sentence |
+| `M-e`                  |   Move to end of sentence       |
+| `C-v`               |  Scroll down one page         |
+| `M-v`               |  Scroll up one page           |
+| `C-M-v`             |  Scroll down the other window |
+| `C-M-S-v`           |  Scroll up the other window   |
+| `C-x <`             |   Scroll left  |
+| `C-<next>`          |   Scroll left  |
+| `C-<prior>`         |   Scroll right |
+| `C-x >`             |   Scroll right |
+
+### Writing / Saving
+* `C-x C-w`: Write buffer to file
+
+### Exiting
+* `C-x C-c`: Exits emacs
+| Binding       |  Purpose                             |
+| --------------|:-------------------------------------|
+| `Y or yes`  | Saves the file   |
+| `N or DEL`  | Skips current buffer |
+| `q or RET`  | Aborts the save, cont, with exit |
+| `C-q` | Aborts save and the exit |
+| `!`  | Save all remaining buffers |
+| `d`   | Diff the file on file system with one in buffer |
+
+### Switch/Kill buffer
+* `C-x b `: Switch buffer
+* `C-x C-s`: Save buffer to file
+* `C-x k`: Kill buffer
+
+### Window management
+| `C-x 0`    | Deletes the active window  |
+| `C-x 1`    | Deletes other windows      |
+| `C-x 2`    | Split window below         |
+| `C-x 3`    | Split window right         |
+| `C-x 5`    | Switch active window       |
+
 ## Keybindings org-mode
 * `ALT+RET`: Create new headline
 * `SHIFT+LEFT/RIGHT`: Toggle TODO status
